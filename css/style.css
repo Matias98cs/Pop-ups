@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eee;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000
+}
+
+.pop-ups-one {
+    justify-items: center;
+    align-items: center;
+    width: 432px;
+    height: 399px;
+    background-color: #FFFFFF;
+    border-radius: 2em;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.pop-ups-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    gap: 2px;
+}
+
+.pop-close img {
+    opacity: 0.4;
+    padding-top: 1.2em;
+    padding-left: 20em;
+    width: 35px;
+    cursor: pointer;
+}
+
+.pop-text {
+    display: grid;
+    padding: 1em 1em 1em 1em;
+    justify-items: center;
+}
+
+.pop-text p {
+    font-size: 1.1;
+    font-weight: bold;
+}
+
+.pop-button {
+    width: 160px;
+    height: 40px;
+    background-color: #ED6755;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.pop-button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.pop-button-2 {
+    width: 160px;
+    height: 40px;
+    background-color: #2C3E50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.pop-button-2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
